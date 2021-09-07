@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio - Yash Kumar Gupta</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700,0:900;1,400;1,500;1,600;1,700;1,900;&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/0d1414939c.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <!-- <div class="navbar-wrapper"> -->
+        <nav class="navbar">
+          <!--
+          <div class="navbar__brand">
+            <img class="brand__logo" src="assets/images/max-einstein.png" alt="max-einstein" loading="lazy"
+              decoding="async">
+            <pre class="brand__name">MAX-EINSTEIN</pre>
+          </div>
+          -->
+          <ul class="navbar__menu">
+            <li class="nav__link link-active"><a href="#"> Home </a></li>
+            <li class="nav__link"><a href="#skills"> Skills </a></li>
+            <li class="nav__link"><a href="#portfolio"> Portfolio </a></li>
+            <li class="nav__link"><a href="#" target="_blank"> Certificates </a></li>
+          </ul>
+        </nav>
+        <!-- </div> -->
+        <div class="flex-container">
+          <div class="hero">
+            <div class="hero__subheading">Hello, I am</div>
+            <div class="hero__heading">Yash Kumar Gupta</div>
+            <div class="hero__description">
+              A
+              <span style="color: cyan; font-weight: 666;">Python</span> and
+              <span style="color:greenyellow; font-weight: 666;">Django</span>
+              Web Developer
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="about" id="about">
+          <div class="about__card">
+            <div class="card__image">
+              <img src="assets/images/Yash.jpeg" alt="Yash Kumar Gupta Picture" loading="lazy" decoding="async">
+            </div>
+            <div class="card__content">
+              <div class="content__heading">
+                About Me!
+              </div>
+              <div class="content__description">
+                Hi! I'm Yash Kumar Gupta.<br><br>
+                I am a student at <a href="https://ipec.org.in" target="_blank">Inderprastha Engineering College (IPEC),
+                  Ghaziabad</a> pursuing <span class="course">B.Tech.</span> in <span class="branch">Computer Science
+                  and Engineering.</span><br><br>
+                I like to develop applications that are both fun and useful. I build my projects with clean
+                architecture using <span class="git"><i class="fab fa-git-alt fa-sm"></i> git</span>
+                for version control and <span>
+                  <a class="github" href="https://github.com/Yashgupta098" target="_blank"><i
+                      class="fab fa-github fa-sm"></i>&nbsp;github</a>
+                </span>
+                for collaboration.
+              </div>
+              <div class="content__buttons">
+                <a class="btn btn--gradient-pink" style="display: block; text-decoration: none;"
+                  href="#"target="_blank">Resume <i class="fas fa-file-download"></i></a>
+                <a class="btn btn--gradient-purple" style="display: block; text-decoration: none;"
+                  href="https://www.linkedin.com/in/yash-kumar-gupta-22b3b3213" target="_blank">Hire Me! <i
+                    class="fas fa-envelope-open-text"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills" id="skills">
+          <div class="skills__card">
+            <div class="skills__card__heading">My Skills</div>
+            <div class="skills__card__grid">
+              <a class="skill">
+                <img src="assets/images/skills/icons8-python.svg" alt="logo" class="skill__icon">
+                <div class="skill__name">Python</div>
+              </a>
+              <div class="skill">
+                <img src="assets/images/skills/icons8-django.svg" alt="logo" class="skill__icon">
+                <div class="skill__name">Django</div>
+              </div>
+              <div class="skill">
+                <img src="assets/images/skills/frontend.png" alt="logo" class="skill__icon"
+                  style="transform: scale(0.8);">
+                <div class="skill__name" style="letter-spacing: 0; font-size: 0.92em; transform: translateY(20%);">
+                  HTML, CSS, JS
+                </div>
+              </div>
+              <div class="skill">
+                <img src="assets/images/skills/icons8-sass.svg" alt="logo" class="skill__icon">
+                <div class="skill__name">Sass</div>
+              </div>
+              
+              <div class="skill">
+                <img src="assets/images/skills/icons8-c++.svg" alt="logo" class="skill__icon">
+                <div class="skill__name">C++</div>
+              </div>
+              <div class="skill">
+                <img src="assets/images/skills/icons8-c-programming.svg" alt="logo" class="skill__icon">
+                <div class="skill__name">C</div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+          <div class="portfolio__card">
+            <div class="portfolio__card__heading">Portfolio</div>
+            <div class="portfolio__card__grid">
+              <div class="project">
+                <img class="project__image" src="assets/images/projects/to-do-list.png" alt="project image"
+                  loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 1</div>
+                  <div class="description">A Simple HTML Webpage</div>
+                </div>
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task1"
+                    target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task1"
+                    target="_blank">Github <i class="fab fa-github fa-sm"></i></a>
+                </div>
+              </div>
+              <div class="project">
+                <img class="project__image webflix" src="assets/images/projects/to-do-list.png"
+                  alt="project image" loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 2</div>
+                  <div class="description">A Simple webpage using HTML and CSS</div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                  <li class="language">CSS</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task2" target="_blank">Demo <i
+                      class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task2"
+                    target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+
+
+              </div>
+              <div class="project">
+                <img class="project__image" src="assets/images/projects/to-do-list.png" alt="project image"
+                  loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 3</div>
+                  <div class="description">A Simple three webpage website using HTML and CSS
+                  </div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                  <li class="language">CSS</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task3"
+                    target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task3"
+                    target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+
+
+              </div>
+              <div class="project">
+                <img class="project__image autopilot" src="assets/images/projects/to-do-list.png"
+                  alt="project image" loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 4</div>
+                  <div class="description">A webpage using HTML, CSS and Bootstrap
+                  </div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                  <li class="language">CSS</li>
+                  <li class="language">BOOTSTRAP</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task4"
+                    target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task4"
+                    target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+
+
+              </div>
+              <div class="project">
+                <img class="project__image key-insight" src="assets/images/projects/to-do-list.png"
+                  alt="project image" loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 5</div>
+                  <div class="description">Basic website using HTML and CSS.</div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                  <li class="language">CSS</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task5"
+                    target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task5"
+                    target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+
+
+              </div>
+              <div class="project">
+                <img class="project__image arachnet" src="assets/images/projects/to-do-list.png" alt="project image"
+                  loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 6</div>
+                  <div class="description">Basic Programes of Javascript</div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">JAVASCRIPT</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task6" target="_blank">Demo
+                    <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task6"
+                    target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <div class="project">
+                <img class="project__image interweb" src="assets/images/projects/to-do-list.png" alt="project image"
+                  loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 7</div>
+                  <div class="description">Basic website using HTML, CSS, and JAVASCRIPT.</div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                  <li class="language">CSS</li>
+                  <li class="language">JAVASCRIPT</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task7"
+                    target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task7"
+                    target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+
+              </div>
+              <div class="project">
+                <img class="project__image" src="assets/images/projects/to-do-list.png" alt="project image"
+                  loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 8</div>
+                  <div class="description">Create a todo list webapp using HTML, CSS and JAVASCRIPT.</div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">HTML</li>
+                  <li class="language">CSS</li>
+                  <li class="language">JAVASCRIPT</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task8"
+                  target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task8"
+                  target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+
+              </div>
+              <div class="project">
+                <img class="project__image" src="assets/images/projects/to-do-list.png" alt="project image"
+                  loading="lazy" decoding="async">
+
+                <div class="details">
+                  <div class="title">TASK 9</div>
+                  <div class="description">Perfome CRUD operation using file System module.</div>
+                </div>
+
+                <ul class="languages">
+                  <li class="language">NODE JS</li>
+                </ul>
+                <div class="button-group">
+                  <a class="btn btn--gradient-pink" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task9"
+                  target="_blank">Demo <i class="fas fa-external-link-alt fa-sm"></i></a>
+                  <a class="btn btn--gradient-purple" href="https://github.com/Yashgupta098/SIG-WEB/tree/master/task9"
+                  target="_blank">Github <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="copyright">&copy; 2021 &nbsp; Yash Kumar Gupta</div>
+        <div class="social">
+          <div>
+            <a href="https://www.linkedin.com/in/yash-kumar-gupta-22b3b3213/" target="_blank"><i style="color: rgb(10, 102, 194);"
+                class="fab fa-linkedin fa-3x"></i></a>
+          </div>
+          <div>
+            <a href="https://github.com/Yashgupta098" target="_blank"><i class="fab fa-github fa-3x"
+                style="color: black;"></i></a>
+          </div>
+          
+        </div>
+      </footer>
+    </div>
+  </body>
+
+</html>
